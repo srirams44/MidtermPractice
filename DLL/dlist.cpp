@@ -29,7 +29,6 @@ void dlist::build() {
     previous = current;
   }
   tail = current;
-  cout << tail->data << endl;
   current->next = NULL;
 }
 
