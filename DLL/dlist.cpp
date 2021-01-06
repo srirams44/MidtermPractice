@@ -28,6 +28,8 @@ void dlist::build() {
     current->data = (rand()%10 + 1);
     previous = current;
   }
+  tail = current;
+  cout << tail->data << endl;
   current->next = NULL;
 }
 
