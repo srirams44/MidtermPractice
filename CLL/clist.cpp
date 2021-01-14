@@ -23,7 +23,7 @@ void clist::build() {
   current->data = (rand()%10 + 1);
   rear = current;
   node* previous = current;
-  int additionalValues = (rand()&5);
+  int additionalValues = (rand()%5);
   for (int a = 0; a < 15+additionalValues; a++) {
     current = new node();
     previous->next = current;
